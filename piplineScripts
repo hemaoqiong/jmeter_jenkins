@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 pipeline {
 	agent any
 		stages{
@@ -13,9 +13,3 @@ pipeline {
 	
   
 }
-=======
-node {
-  stage 'Run JMeter Test'
- bat 'D:/测试工具/apache-jmeter-5.1.1/apache-jmeter-5.1.1/bin/jmeter.bat -n -t D:\测试工具\Git\jmeter_jenkins/BlazeDemo.jmx -l D:\测试工具\Git\jmeter_jenkins/test.jtl'
-}
->>>>>>> a38f18028ab99f7242dc3303830106ac56f47246
